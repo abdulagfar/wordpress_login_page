@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    background:#F1F1F1;
+    font-family: "Verdana";
+}
+
+.main{
+    text-align: center;
+    display: inline-block;
+	position: absolute;
+	width: 250px;
+	margin: auto;
+	top: 0;
+	left: 0;
+    right: 0;
+    bottom: 0;
+	background: #F1F1F1;
+	padding: 50px; 
+}
+
+.form{
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    padding: 25px 20px 35px 15px;
+    color: rgba(94, 94, 94, 0.986);
+    font-size: 10px;
+}
+
+.f1 input{
+    border: 2px solid #ccc;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 2px;
+}
+
+.f1 input:focus,.f2 input:focus,button{
+    outline: none;
+    text-decoration: none;
+    border: 2px solid  #4BA2C5;
+}
+
+.f2{
+    font-size: 9.5px;
+   
+}
+.f2 input{
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    background-color: rgb(255, 255, 255); 
+    border: 1.5px solid #ccc;
+}
+
+.f2 button{
+    cursor: pointer;
+    font-size: 11px;
+    float:right;
+    background-color:  #4BA2C5;
+    color: white;
+    padding:6px 10px 6px 10px  ;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px 1px rgb(23, 132, 168);
+}
+
+input[type=checkbox] {
+    vertical-align: middle; 
+    position: relative;
+    bottom: .08em;
+    
+  }
+
+input[type=checkbox]:checked{
+    
+    background: #4BA2C5;
+  }
+  
+.links{
+    text-align: left;
+    padding:20px; 
+}
+
+.links a{
+    text-decoration: none;
+    font-size:10px;
+    color: rgba(65, 65, 65, 0.795);
+}
+
+.links a l{
+    font-size: 15px; 
+    vertical-align: middle; 
+    position: relative;
+    bottom: .08em;
+}
